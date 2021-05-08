@@ -1,0 +1,84 @@
+Last login: Fri May  7 15:58:01 on ttys000
+luiszepeda@MacBook-Air-de-Luis ~ % cd Desktop 
+luiszepeda@MacBook-Air-de-Luis Desktop % cd Semestre\ 4
+luiszepeda@MacBook-Air-de-Luis Semestre 4 % cd Semana\ Tec\ 2
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git config --global user.name "luiszepeda1"
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git config --global user.email "A01424057@itesm.mx"
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git init
+Reinicializado el repositorio Git existente en /Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/.git/
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git clone https://github.com/luiszepeda1/Act4S1001S
+Clonando en 'Act4S1001S'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Recibiendo objetos: 100% (3/3), listo.
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % cd Act4S1001S 
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 -m freegames copy cannon
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git branch luiszepeda4
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	cannon.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git checkout luiszepeda4
+Cambiado a rama 'luiszepeda4'
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git status              
+En la rama luiszepeda4
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	cannon.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % vim cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % vim cannon.py    
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git add cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git status 
+En la rama luiszepeda4
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  cannon.py
+
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % fit commit -m cannon.py
+zsh: command not found: fit
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git commit -m cannon.py
+[luiszepeda4 1a55721] cannon.py
+ 1 file changed, 79 insertions(+)
+ create mode 100644 cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git push origin luiszepeda4
+Enumerando objetos: 4, listo.
+Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 883 bytes | 883.00 KiB/s, listo.
+Total 3 (delta 0), reusado 0 (delta 0), pack-reusado 0
+remote: 
+remote: Create a pull request for 'luiszepeda4' on GitHub by visiting:
+remote:      https://github.com/luiszepeda1/Act4S1001S/pull/new/luiszepeda4
+remote: 
+To https://github.com/luiszepeda1/Act4S1001S
+ * [new branch]      luiszepeda4 -> luiszepeda4
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 cannon.py      
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % vim cannon.py          
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % python3 cannon.py
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % vim cannon.py    
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % git log          
+commit 1a55721e42ee702cfe59b7c1b82d00ad2e4c1fee (HEAD -> luiszepeda4, origin/luiszepeda4)
+Author: luiszepeda1 <A01424057@itesm.mx>
+Date:   Fri May 7 19:33:22 2021 -0500
+
+    cannon.py
+
+commit 1fec8e397724ed925e87dd9fb6c4dda637d457d0 (origin/main, origin/HEAD, main)
+Author: luiszepeda1 <83771890+luiszepeda1@users.noreply.github.com>
+Date:   Fri May 7 15:17:05 2021 -0500
+
+    Initial commit
+luiszepeda@MacBook-Air-de-Luis Act4S1001S % 
