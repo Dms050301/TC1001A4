@@ -1,0 +1,127 @@
+Last login: Fri May  7 11:22:48 on ttys000
+MacBook-Air-de-Daniel-3:~ dms_050301$ cd desktop
+MacBook-Air-de-Daniel-3:desktop dms_050301$ cd python
+MacBook-Air-de-Daniel-3:python dms_050301$ git clone https://github.com/luiszepeda1/Act4S1001S
+Clonando en 'Act4S1001S'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Recibiendo objetos: 100% (6/6), listo.
+MacBook-Air-de-Daniel-3:python dms_050301$ cd Act4S1001S
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ log
+usage:
+    log <command>
+
+global options:
+    -?, --help
+    -q, --quiet
+    -v, --verbose
+
+commands:
+    collect         gather system logs into a log archive
+    config          view/change logging system settings
+    erase           delete system logging data
+    show            view/search system logs
+    stream          watch live system logs
+    stats           show system logging statistics
+
+further help:
+    log help <command>
+    log help predicates
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git log
+commit 1fec8e397724ed925e87dd9fb6c4dda637d457d0 (HEAD -> main, origin/main, origin/HEAD)
+Author: luiszepeda1 <83771890+luiszepeda1@users.noreply.github.com>
+Date:   Fri May 7 15:17:05 2021 -0500
+
+    Initial commit
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git branch a01424051
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git checkout a01424051
+Cambiado a rama 'a01424051'
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git merge a01424051
+Ya está actualizado.
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git add .
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push origin a01424051
+remote: Permission to luiszepeda1/Act4S1001S.git denied to Dms050301.
+fatal: no es posible acceder 'https://github.com/luiszepeda1/Act4S1001S/':The requested URL returned error: 403
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push -u origin a01424051
+remote: Permission to luiszepeda1/Act4S1001S.git denied to Dms050301.
+fatal: no es posible acceder 'https://github.com/luiszepeda1/Act4S1001S/':The requested URL returned error: 403
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push -u origin a01424051
+Total 0 (delta 0), reusado 0 (delta 0), pack-reusado 0
+remote: 
+remote: Create a pull request for 'a01424051' on GitHub by visiting:
+remote:      https://github.com/luiszepeda1/Act4S1001S/pull/new/a01424051
+remote: 
+To https://github.com/luiszepeda1/Act4S1001S
+ * [new branch]      a01424051 -> a01424051
+Rama 'a01424051' configurada para hacer seguimiento a la rama remota 'a01424051' de 'origin'.
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ python3 -m freegames copy cannon
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ python3 cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ vim cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ python3 cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ vim cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ python3 cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ vim cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ python3 cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ vim cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git add cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git commit cannon.py
+[main b29c94a] Este es la nueva version de cannon
+ 1 file changed, 81 insertions(+)
+ create mode 100644 cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push origin a01424051
+Everything up-to-date
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git commit -m cannon.py
+En la rama main
+Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git reset --soft HEAD~1
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git checkout a01424051
+A	cannon.py
+Cambiado a rama 'a01424051'
+Tu rama está actualizada con 'origin/a01424051'.
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git add cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git commit -m cannon.py
+[a01424051 551fab9] cannon.py
+ 1 file changed, 81 insertions(+)
+ create mode 100644 cannon.py
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push origin cannon.py
+error: src refsoec cannon.py: no concuerda con ninguno
+error: falló el push de algunas referencias a 'https://github.com/luiszepeda1/Act4S1001S'
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push -u origin cannon.py
+error: src refsoec cannon.py: no concuerda con ninguno
+error: falló el push de algunas referencias a 'https://github.com/luiszepeda1/Act4S1001S'
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git status
+En la rama a01424051
+Tu rama está adelantada a 'origin/a01424051' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git push origin a01424051
+Enumerando objetos: 4, listo.
+Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 897 bytes | 897.00 KiB/s, listo.
+Total 3 (delta 0), reusado 0 (delta 0), pack-reusado 0
+To https://github.com/luiszepeda1/Act4S1001S
+   1fec8e3..551fab9  a01424051 -> a01424051
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ git log
+commit 551fab9a72b66dd36c71b792324574bd4918c537 (HEAD -> a01424051, origin/a01424051)
+Author: Dms050301 <A01424051@itesm.mx>
+Date:   Fri May 7 20:03:11 2021 -0500
+
+    cannon.py
+
+commit 1fec8e397724ed925e87dd9fb6c4dda637d457d0 (origin/main, origin/HEAD, main)
+Author: luiszepeda1 <83771890+luiszepeda1@users.noreply.github.com>
+Date:   Fri May 7 15:17:05 2021 -0500
+
+    Initial commit
+MacBook-Air-de-Daniel-3:Act4S1001S dms_050301$ 
